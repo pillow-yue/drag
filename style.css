@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+ul{
+    position: relative;
+    width: 360px;
+    margin: 10px auto;
+}
+ul li{
+    width: 100px;
+    height: 100px;
+    list-style: none;
+    margin: 1px;
+    float: left;
+}
+ul .active{
+    border: 1px dashed purple;
+}
